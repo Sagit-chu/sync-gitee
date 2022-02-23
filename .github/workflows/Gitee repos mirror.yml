@@ -19,7 +19,7 @@ jobs:
     - name: Mirror the Github organization repos to Gitee.
       uses: Yikun/hub-mirror-action@v1.0
       with:
-        src: github/Sagit-chu
+        src: github/truecharts
         dst: gitee/truecharts
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token:  ${{ secrets.GITEE_TOKEN }}
