@@ -27,7 +27,7 @@ jobs:
         timeout: 600
         debug: true
         force_update: true
-        white_list: "catalog"
+        white_list: "catalog,dh_catalog"
     - name: Delete workflow runs
       uses: GitRML/delete-workflow-runs@main
       with:
